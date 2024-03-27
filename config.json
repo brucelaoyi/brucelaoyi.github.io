@@ -1,6 +1,7 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
+    "title":"老易说事",
+    "subTitle":"人生就像一场旅行，经历的一切都是风景。",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "onePageListNum":15,
     "GMEEK_VERSION":"last"
 }
