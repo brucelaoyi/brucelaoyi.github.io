@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -99,8 +99,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>这也是为什么需要多接触高质量作品的原因，比如大量阅读世界名著、观看优秀的影视作品、参观博物馆、学习科学和经济学……少看一些充斥着暴力、脏话、毁三观内容短视频和网文。尤其是短视频，通过一些心理操纵的手法，把一些垃圾语言和垃圾信息，植入你的脑海，我们还不自知。这些影响，都是潜移默化的。</p>
 <p>当我开始对别人的优秀嗤之以鼻时，我就会从这3个方面逐项思考，自己是哪种情况，以及可以如何调整，从而使自己成为一个更优秀的人！</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://brucelaoyi.github.io"> 老易说事 </a>
 <p>
@@ -155,6 +157,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
